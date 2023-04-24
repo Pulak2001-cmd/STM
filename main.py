@@ -32,6 +32,7 @@ def create_dataset(dataset, time_step=1):
     return np.array(dataX), np.array(dataY)
 
 time_step = 100
+#time = 101
 X_train, y_train = create_dataset(train_data, time_step)
 X_test, ytest = create_dataset(test_data, time_step)
 model=Sequential()
